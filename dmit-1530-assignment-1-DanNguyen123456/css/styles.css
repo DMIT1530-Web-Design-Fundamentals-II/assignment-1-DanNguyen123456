@@ -59,8 +59,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5rem;
-	text-transform: uppercase;
+	font-size: 1.2rem;
 }
 
 /* Mobile View */
@@ -88,6 +87,19 @@ h3 {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.banner3 {
+	width: auto;
+	height: auto;
+	background-image: url("/img/building-stronger-compressed.jpg");
+	background-color: #fff;
+	min-height: 20rem;
+	top: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2rem;
+}
+
 
 
 footer {
@@ -339,6 +351,69 @@ header>div>ul>li>a:link {
 
 .chart>div:nth-child(12) {
 	background-color: #1E426E;
+}
+
+.community>p,
+.community>h3 {
+	margin: 2rem;
+	text-align: left;
+}
+
+.tile {
+	display: flex;
+	flex-flow: column;
+	background-color: #1E426E;
+	color: #fff;
+	margin: 2rem;
+}
+
+.tile>* {
+	min-width: 50%;
+}
+
+.tile>img {
+	height: 13rem;
+}
+
+.description {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.tile>a:visited {
+	color: #fff;
+}
+
+.tile>a:hover {
+	background-color: #2A5FA5;
+}
+
+.banner3>section {
+	background-color: rgba(255, 255, 255, .8);
+	padding: 1rem;
+	max-height: 25rem;
+}
+
+.banner3>section>h2 {
+	line-height: 2rem;
+}
+
+.banner3>section>p {
+	text-align: left;
+	line-height: 1.2rem;
+}
+
+.banner3>section>a {
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	color: #2A5FA5;
+}
+
+.banner3>section>a:hover {
+	color: #77A04D;
 }
 
 /* Medium View */
