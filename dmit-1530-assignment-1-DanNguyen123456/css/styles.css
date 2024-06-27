@@ -67,7 +67,7 @@ h3 {
 .banner {
 	width: auto;
 	height: auto;
-	background-image: url("/img/banner-wind-compressed.jpg");
+	background-image: url('../img/banner-wind-compressed.jpg');
 	background-color: #fff;
 	min-height: 8rem;
 	top: 100%;
@@ -79,7 +79,7 @@ h3 {
 .banner2 {
 	width: auto;
 	height: auto;
-	background-image: url("/img/banner-community.jpg");
+	background-image: url('../img/banner-community.jpg');
 	background-color: #fff;
 	min-height: 8rem;
 	top: 100%;
@@ -91,7 +91,7 @@ h3 {
 .banner3 {
 	width: auto;
 	height: auto;
-	background-image: url("/img/building-stronger-compressed.jpg");
+	background-image: url('../img/building-stronger-compressed.jpg');
 	background-color: #fff;
 	min-height: 20rem;
 	top: 100%;
@@ -103,7 +103,7 @@ h3 {
 .banner4 {
 	width: auto;
 	height: auto;
-	background-image: url("/img/banner-your-home.jpg");
+	background-image: url('../img/banner-your-home.jpg');
 	background-color: #fff;
 	min-height: 8rem;
 	top: 100%;
