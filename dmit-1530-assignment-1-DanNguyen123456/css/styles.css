@@ -468,16 +468,16 @@ header>div>ul>li>a:link {
 	text-align: left;
 }
 
-.info>p {
+.info>div>div>p {
 	text-align: left;
 	margin: 1rem 0 1rem 0;
 }
 
-.info>a {
+.info>div>div>a {
 	color: #2A5FA5;
 }
 
-.info>a:visited {
+.info>div>div>a:visited {
 	color: #2A5FA5;
 }
 
@@ -634,6 +634,37 @@ header>div>ul>li>a:link {
 		max-width: 40rem;
 		min-height: 20rem;
 	}
+
+	.home-tile {
+		width: calc(100% / 3 - 0.5rem);
+	}
+
+	.info>div {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.info>div>div {
+		padding: 1rem;
+	}
+
+	.info:nth-child(3)>div {
+		flex-flow: row-reverse;
+	}
+
+	.info>div>img {
+		height: 10rem;
+	}
+
+	.help>div {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.home-button {
+		width: calc(100% / 2 - 0.5rem);
+		margin: 1rem;
+	}
 }
 
 /* Largest View */
@@ -701,5 +732,9 @@ header>div>ul>li>a:link {
 	.banner3>section {
 		position: relative;
 		right: 16%;
+	}
+
+	.home-tile {
+		flex-flow: column-reverse;
 	}
 }
